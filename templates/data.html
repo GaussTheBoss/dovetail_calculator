@@ -1,0 +1,7 @@
+{% for key_1,value_1 in form_data.items() %}
+<h2> {{key_1}}</h2>
+{% for key_2,value_2 in value_1.items() %}
+<h3>&emsp;{{key_2}}</h3>
+<p>&emsp;&emsp;{{value_2}}</p>
+{% endfor %}
+{% endfor %}
